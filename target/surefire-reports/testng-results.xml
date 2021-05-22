@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" ignored="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1366" started-at="2021-05-21T11:12:56 ICT" finished-at="2021-05-21T11:12:57 ICT">
+    <groups>
+    </groups>
+    <test name="Pixel_2" duration-ms="1366" started-at="2021-05-21T11:12:56 ICT" finished-at="2021-05-21T11:12:57 ICT">
+      <class name="com.qa.tests.LoginTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeSuite" is-config="true" duration-ms="7349" started-at="2021-05-21T11:12:48 ICT" finished-at="2021-05-21T11:12:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeTest" is-config="true" duration-ms="1125" started-at="2021-05-21T11:12:56 ICT" finished-at="2021-05-21T11:12:57 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pixel_3a_API_30_x86]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+at com.qa.BaseTest.beforeTest(BaseTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeClass" is-config="true" duration-ms="-1621570377174" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377179" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377179" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="invalidPassword" duration-ms="0" started-at="2021-05-21T11:12:57 ICT" finished-at="2021-05-21T11:12:57 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+at com.qa.BaseTest.beforeTest(BaseTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377397" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377397" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377397" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377397" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="invalidUserName" duration-ms="0" started-at="2021-05-21T11:12:57 ICT" finished-at="2021-05-21T11:12:57 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+at com.qa.BaseTest.beforeTest(BaseTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377398" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377398" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377399" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="beforeMethod" is-config="true" duration-ms="-1621570377399" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="successfulLogin" duration-ms="0" started-at="2021-05-21T11:12:57 ICT" finished-at="2021-05-21T11:12:57 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+at com.qa.BaseTest.beforeTest(BaseTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377399" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterMethod" is-config="true" duration-ms="-1621570377400" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterClass" is-config="true" duration-ms="-1621570377400" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterTest" is-config="true" duration-ms="-1621570377401" started-at="2021-05-21T11:12:57 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.qa.tests.LoginTests@536aaa8d]" name="afterSuite" is-config="true" duration-ms="-1621570382680" started-at="2021-05-21T11:13:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.tests.LoginTests -->
+    </test> <!-- Pixel_2 -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="600055" started-at="2021-05-21T11:13:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+    <groups>
+    </groups>
+    <test name="iPhone11" duration-ms="600055" started-at="2021-05-21T11:13:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+      <class name="com.qa.tests.LoginTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2021-05-21T11:13:02 ICT" finished-at="2021-05-21T11:13:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeTest" is-config="true" duration-ms="600040" started-at="2021-05-21T11:13:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0EFBCDDB-E558-43C4-B412-D2923D3582EF]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iphone12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:90)
+at com.qa.BaseTest.beforeTest(BaseTest.java:272)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: java.io.IOException: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:208)
+at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+... 38 more
+Caused by: java.io.EOFException: \n not found: limit=0 content=…
+at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:237)
+at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+... 58 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeClass" is-config="true" duration-ms="-1621570982730" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982732" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982732" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="invalidPassword" duration-ms="0" started-at="2021-05-21T11:23:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:90)
+at com.qa.BaseTest.beforeTest(BaseTest.java:272)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: java.io.IOException: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:208)
+at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+... 38 more
+Caused by: java.io.EOFException: \n not found: limit=0 content=…
+at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:237)
+at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+... 58 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982737" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982737" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982737" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="invalidUserName" duration-ms="0" started-at="2021-05-21T11:23:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:90)
+at com.qa.BaseTest.beforeTest(BaseTest.java:272)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: java.io.IOException: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:208)
+at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+... 38 more
+Caused by: java.io.EOFException: \n not found: limit=0 content=…
+at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:237)
+at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+... 58 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982738" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982738" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982739" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="-1621570982739" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982739" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982740" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="successfulLogin" duration-ms="0" started-at="2021-05-21T11:23:02 ICT" finished-at="2021-05-21T11:23:02 ICT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:90)
+at com.qa.BaseTest.beforeTest(BaseTest.java:272)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+... 33 more
+Caused by: java.io.IOException: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:208)
+at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+... 38 more
+Caused by: java.io.EOFException: \n not found: limit=0 content=…
+at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:237)
+at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+... 58 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterMethod" is-config="true" duration-ms="-1621570982740" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterClass" is-config="true" duration-ms="-1621570982741" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterTest" is-config="true" duration-ms="-1621570982741" started-at="2021-05-21T11:23:02 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.qa.tests.LoginTests@307f6b8c]" name="afterSuite" is-config="true" duration-ms="-1621570983807" started-at="2021-05-21T11:23:03 ICT" finished-at="1970-01-01T08:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.tests.LoginTests -->
+    </test> <!-- iPhone11 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

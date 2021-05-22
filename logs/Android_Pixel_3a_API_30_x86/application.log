@@ -1,0 +1,30 @@
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:07:21.359 BaseTest:218 - log path: logs/Android_Pixel_3a_API_30_x86
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:07:21.362 BaseTest:225 - load config.properties
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:07:21.363 BaseTest:230 - load strings/strings.xml
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:07:21.367 BaseTest:255 - appUrl is/Users/mb-automationtest2/Downloads/appiumcici-master/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logs/Android_Pixel_3a_API_30_x86 FATAL] 2021-05-21 11:07:22.496 BaseTest:280 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:12:56.040 BaseTest:218 - log path: logs/Android_Pixel_3a_API_30_x86
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:12:56.043 BaseTest:225 - load config.properties
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:12:56.044 BaseTest:230 - load strings/strings.xml
+[logs/Android_Pixel_3a_API_30_x86 INFO ] 2021-05-21 11:12:56.048 BaseTest:255 - appUrl is/Users/mb-automationtest2/Downloads/appiumcici-master/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logs/Android_Pixel_3a_API_30_x86 FATAL] 2021-05-21 11:12:57.160 BaseTest:280 - driver initialization failure. ABORT!!!
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver

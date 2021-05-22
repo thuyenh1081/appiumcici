@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 2, Errors: 0, Skipped: 38, Time elapsed: 615.544 s <<< FAILURE! - in TestSuite
+beforeTest(com.qa.tests.LoginTests)  Time elapsed: 8.734 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The Android SDK root folder '/Users/omprakashchavan/Library/Android/sdk' does not exist on the local file system. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+
+beforeTest(com.qa.tests.LoginTests)  Time elapsed: 605.333 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Original error: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB-Automations-MacBook-Pro.local', ip: '2402:9d80:204:eea8:e4a1:aad1:fa87:aba5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_292'
+Driver info: driver.version: IOSDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.io.IOException: unexpected end of stream on Connection{127.0.0.1:4723, proxy=DIRECT hostAddress=/127.0.0.1:4723 cipherSuite=none protocol=http/1.1}
+Caused by: java.io.EOFException: \n not found: limit=0 content=…
+
